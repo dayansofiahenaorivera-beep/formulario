@@ -1,0 +1,49 @@
+/* Contenedor de los resultados */
+.resultado {
+    background-color: white;
+    width: 400px;
+    max-width: 90%;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Título del resultado */
+.resultado h1 {
+    color: #c2185b;
+    margin-bottom: 20px;
+}
+
+/* Datos registrados */
+.resultado p {
+    background-color: #fce4ec;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+/* Mensajes de datos faltantes */
+.resultado .error {
+    background-color: #ffebee;
+    color: #c62828;
+    border-left: 4px solid #e53935;
+}
+
+/* Botón para regresar */
+.resultado a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #e91e63;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Efecto del enlace */
+.resultado a:hover {
+    background-color: #c2185b;
+}
